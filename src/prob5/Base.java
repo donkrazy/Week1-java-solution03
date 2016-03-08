@@ -7,7 +7,6 @@ public class Base {
 		} else {
 			night();
 		}
-			
 	}
 	
 	public void day(){

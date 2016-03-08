@@ -14,11 +14,21 @@ public class Prob3 {
 	
 	public static char[] reverse(String str){
 		/* 구현코드 */
+		int length = str.length();
 		
-		return null;
+		char[] result = new char[ length ];
+		for( int i = 0; i < length; i++ ) {
+			result[ i ] = str.charAt( length - i - 1 );
+		}
+		
+		return result;
 	}
 	
 	public static void printCharArray(char[] array){
 		/* 구현코드 */
+		for( int i = 0; i < array.length; i++ ) {
+			System.out.print( array[i] );	
+		}
+		System.out.println( "" );		
 	}
 }
